@@ -67,7 +67,7 @@ int main1(void)
 int main(void)
 {
 	int i;
-	for (i = 0; i < 100000; i++)
+	for (i = 0; i < 10; i++)
 	{
 		printf("²âÊÔµÚ%d´Î\n", i + 1);
 		test();

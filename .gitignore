@@ -2,9 +2,10 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/hash_map_by_c/hash_map/.vs/
+/Debug/hash_map_by_c.tlog
+/Debug
+/hash_map_by_c.sln
+/hash_map_by_c.vcxproj
+/hash_map_by_c.vcxproj.filters
+/hash_map_by_c.vcxproj.user
 /.vs
-/hash_map_by_c/hash_map/hash_map.sln
-/hash_map_by_c/hash_map/hash_map.vcxproj
-/hash_map_by_c/hash_map/hash_map.vcxproj.filters
-/hash_map_by_c/hash_map/hash_map.vcxproj.user
