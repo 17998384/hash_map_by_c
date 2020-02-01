@@ -8,7 +8,6 @@
 //	介绍:	标准C版本实现Java中的HashMap
 
 
-
 /*
 	创建hash_map
 */
