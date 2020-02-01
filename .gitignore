@@ -3,3 +3,8 @@
 ################################################################################
 
 /hash_map_by_c/hash_map/.vs/
+/.vs
+/hash_map_by_c/hash_map/hash_map.sln
+/hash_map_by_c/hash_map/hash_map.vcxproj
+/hash_map_by_c/hash_map/hash_map.vcxproj.filters
+/hash_map_by_c/hash_map/hash_map.vcxproj.user
