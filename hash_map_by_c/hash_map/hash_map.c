@@ -1,12 +1,12 @@
+
+//	Created by 葛振东 on 2020/01/31
+//  Copyright  2020 葛振东. All rights reserved.
+
 #include "hash_map.h"
 #include "hash_map_iterator.h"
 #define GROWTH_FACTOR  0.75			//增长因子
 #define MULTIPLE 2					//扩大倍数
-
-//	created by 2020/02/01
-//	作者:	葛振东(gezhendong)
-//	介绍:	标准C版本实现Java中的HashMap
-
+#define INITIAL_SIZE 16				//初始大小
 
 /*
 	创建hash_map
@@ -224,7 +224,7 @@ void check_nodes_size(struct hash_map* map)
 	{
 		int size;
 		//如果没有指定初始长度,默认为16
-		size = map->size == 0 ? 16 : map->size;
+		size = map->size == 0 ? INITIAL_SIZE : map->size;
 		//如果size为0则替换掉,否则保持不变
 		map->size = size;
 		//申请空间

@@ -1,3 +1,7 @@
+
+//	Created by ¸ðÕñ¶« on 2020/01/31
+//  Copyright  2020 ¸ðÕñ¶«. All rights reserved.
+
 #ifndef HASH_MAP_ITERATOR
 #define HASH_MAP_ITERATOR
 #include "hash_map.h"

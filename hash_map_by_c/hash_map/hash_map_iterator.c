@@ -1,9 +1,9 @@
+
+//	Created by 葛振东 on 2020/01/31
+//  Copyright  2020 葛振东. All rights reserved.
+
 #include "hash_map_iterator.h"
 #include "hash_map.h"
-
-//	created by 2020/02/01
-//	作者:	葛振东(gezhendong)
-//	介绍:	hashMap中的迭代
 
 /*
 	迭代

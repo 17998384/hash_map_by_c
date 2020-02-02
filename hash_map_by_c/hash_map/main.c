@@ -1,3 +1,8 @@
+
+//	Created by 葛振东 on 2020/01/31
+//  Copyright  2020 葛振东. All rights reserved.
+
+
 #define _CRT_SECURE_NO_WARNINGS
 #include "hash_map.h"
 
@@ -67,7 +72,7 @@ int main1(void)
 int main(void)
 {
 	int i;
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 10000; i++)
 	{
 		printf("测试第%d次\n", i + 1);
 		test();

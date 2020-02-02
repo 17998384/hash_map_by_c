@@ -1,15 +1,12 @@
+
+//	Created by 葛振东 on 2020/01/31
+//  Copyright  2020 葛振东. All rights reserved.
+
 #ifndef HASH_MAP
 #define HASH_MAP
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
-/**
-	@description 模仿java的HashMap(key只支持string类型(char*))
-	@author	葛振东
-	@by	2020/01/30
-*/
-
 
 //node节点
 struct node
